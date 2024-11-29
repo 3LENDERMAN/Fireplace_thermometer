@@ -1,7 +1,3 @@
-Here’s the improved and more polished description for your GitHub project:
-
----
-
 # Fireplace Thermometer
 
 This project measures the temperature inside a fireplace but can be adapted for any application requiring temperature measurements in the range of **-30°C (-22°F) to 120°C (248°F)**.
@@ -60,6 +56,4 @@ Below is the final appearance of the project (receiver side shown):
 - Temperature readings are displayed in **degrees Celsius**.
 - The system can be modified to measure other environmental parameters or adapt the display/output mechanism as needed.
 
---- 
-
-This polished description provides clarity and maintains a professional tone while ensuring accessibility for contributors and readers.
+---
