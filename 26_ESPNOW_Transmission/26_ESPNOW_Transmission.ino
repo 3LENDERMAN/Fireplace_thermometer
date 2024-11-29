@@ -14,8 +14,8 @@ uint8_t receiverMAC[] = {0x48, 0x55, 0x19, 0xec, 0xbe, 0x9e};
 
 // Callback for sent data
 void onDataSent(uint8_t *mac_addr, uint8_t sendStatus) {
-  Serial.print("Odesílání status: ");
-  Serial.println(sendStatus == 0 ? "Úspěšné" : "Neúspěšné");
+  Serial.print("Status of sent data: ");
+  Serial.println(sendStatus == 0 ? "Success" : "Failed");
 }
 
 void setup() {
@@ -25,7 +25,7 @@ void setup() {
   sensors.begin();
   
   if (esp_now_init() != 0) {   // Inicialization of ESP-NOW protocol
-    Serial.println("Chyba při inicializaci ESP-NOW");
+    Serial.println("Initialization of ESP-NOW failed!");
     return;
   }
   esp_now_set_self_role(ESP_NOW_ROLE_CONTROLLER);
