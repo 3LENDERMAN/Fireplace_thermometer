@@ -2,7 +2,9 @@
 This project is designed to measure temperature in fireplace, but can be used to measure anything in interval from -30°C (-22°F) to 120°C (248°F) 
 
 **There are two parts**: transmitter (measures temperatures and sends signal directly to another ESP) and **reciever** (recieves signal and displays it on OLED + turns specific LED on)
-The distance between two ESPs in clear space can be up to 50 meters (tested) and about 15 meters inside house or with barriers.
+The distance between two ESPs in clear space can be up to 50 meters (tested) and about 15 meters inside house or with barriers (without additional antenna).
+
+The usage of power is approximately 0.9W per hour on reciever side and 0.35W per hour on transmitter side.
 
 ## Used libraries:
 **ESP8266WiFi**
@@ -27,3 +29,6 @@ Transmitter: transmits signal using ESP-NOW protocol (needed MAC adress of recie
 ![ESP_transmission](https://github.com/user-attachments/assets/2601738d-8768-47ae-8c03-4928f0f1c257)
 
 NOTE: Measured temperature is in degrees Celcius.
+**Final look of the project:**
+
+![box_esp](https://github.com/user-attachments/assets/7a46bafb-a54d-4cc3-a96b-01d0f1cd0256)
