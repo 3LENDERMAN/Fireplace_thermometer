@@ -25,7 +25,7 @@ To replicate or modify this project, install the following libraries:
 - **[espnow](https://github.com/saghonfly/SimpleEspNowConnection)**  
 - **[OneWire](https://github.com/PaulStoffregen/OneWire)**  
 - **[DallasTemperature](https://www.arduinolibraries.info/libraries/dallas-temperature)**  
-- **[U8g2lib](https://github.com/olikraus/U8g2_Arduino)**  
+- **[U8g2lib](https://github.com/olikraus/U8g2_Arduino)**  (Optional - depending on driver chips, most have SSD1306 which is highly supported by Adafruit library, some inexpensive OLEDs have SH1106 or other.. which can fail to load properly - use U8G2lib - it supports most driver chips from inexpensive clones)
 
 ---
 
