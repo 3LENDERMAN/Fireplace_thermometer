@@ -52,7 +52,7 @@ CalibrationData calibrationTable[] = {
 
 const int tableSize = sizeof(calibrationTable) / sizeof(calibrationTable[0]);
 
-// Function that calibrates the difference between the actual and measured value 
+// Function that calibrates the difference between actual and measured value 
 float calibrateTemperature(float measuredTemp) {
   // Find the corresponding value in calibration table to measured temperature
   for (int i = 0; i < tableSize - 1; i++) {
