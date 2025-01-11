@@ -1,4 +1,4 @@
-# Fireplace Thermometer
+# Wireless Fireplace Thermometer
 
 This project measures the temperature inside a fireplace but can be adapted for any application requiring temperature measurements in the range of **-30°C (-22°F) to 120°C (248°F)**.
 
